@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { CategoryComponent } from './category/category.component';
 
 import { OrderbyPipe } from './category/orderby.pipe';
+import { SearchPipe } from './category/search.pipe';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent,  OrderbyPipe ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent,  OrderbyPipe, SearchPipe ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
